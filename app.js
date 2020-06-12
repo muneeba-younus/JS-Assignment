@@ -101,7 +101,7 @@ var name = "Muneeba Younus", age = 19, Assignments = "JavaScript Assignments";
 
 // Chapter 4 task# 2:
 var number, $variable, _variable, variable1, variable1_$;
-//var 1variable, !variable, function , #variable, variable ^ ;
+var 1variable, !variable, function , #variable, variable ^ ;
 
 
 // Chapter 4 task# 3:
@@ -158,8 +158,8 @@ document.write("<br><br><br>Total cost to buy 5 tickets to a movie is " + total_
 // Chapter 5 task# 5:
 var table = 8;
 document.write("<br><br><br>Table of " + table);
-for(var i = 0; i<10; i++){
-    document.write("<br>" + table + " * " + (i+1) + " = " + table * (i+1));
+for(var i = 1; i<=10; i++){
+    document.write("<br>" + table + " * " + i + " = " + table * i);
 }
 
 
@@ -290,7 +290,8 @@ document.write("<table>     <tr><th>Subjects</th><th>Total Marks</th><th>Obtaine
 
 //Chapter 9-11 task# 1:
 var city = prompt("Enter city: ");
-if (city === "Karachi" || city === "KARACHI" || city === "karachi") {
+city = city.toLowerCase();
+if (city === "karachi") {
     alert("Welcome to the city of lights");
 }
 else {
@@ -300,10 +301,11 @@ else {
 
 //Chapter 9-11 task# 2:
 var gender = prompt("Enter your gender:");
-if (gender === "Female" || gender === "female" || gender === "FEMALE") {
+gender = gender.toLowerCase();
+if (gender === "female") {
     alert("Good Morning Ma'am");
 }
-else if (gender === "Male" || gender === "male" || gender === "MALE") {
+else if (gender === "male") {
     alert("Good Morning Sir");
 }
 else {
@@ -313,13 +315,14 @@ else {
 
 //Chapter 9-11 task# 3:
 var color = prompt("Enter traffic signal color:");
-if (color === "red" || color === "RED" || color === "Red") {
+color = color.toLowerCase();
+if (color === "red") {
     alert("Must Stop");
 }
-else if (color === "yellow" || color === "YELLOW" || color === "Yellow") {
+else if (color === "yellow") {
     alert("Ready to move");
 }
-else if (color === "green" || color === "GREEN" || color === "Green") {
+else if (color === "green") {
     alert("Move now");
 }
 else {
@@ -592,7 +595,7 @@ else {
 var names = [];
 
 // Chapter 14-16 task# 2:
-//var array = [ : , :];
+var array = [];
 
 
 // Chapter 14-16 task# 3:

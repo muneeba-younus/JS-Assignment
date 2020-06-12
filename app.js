@@ -257,13 +257,13 @@ document.write("<br>");
 //Chapter 6-9 task# 5:
 var table = prompt("Enter any number");
 if(table == 5){
-    for(var i = 0; i < 10; i++){
-        document.write("<br>" + 5 + " * " + " i " + " = " + (5*i));
+    for(var i = 1; i <= 10; i++){
+        document.write("<br>" + 5 + " * " +  i  + " = " + (5*i));
     }
 }
 else{
-    for(var i = 0; i < 10; i++){
-        document.write("<br>" + table + " * " + " i " + " = " + (table*i));
+    for(var i = 1; i <= 10; i++){
+        document.write("<br>" + table + " * " +  i + " = " + (table*i));
     }
 }
 
